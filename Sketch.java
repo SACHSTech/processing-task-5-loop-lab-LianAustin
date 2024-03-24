@@ -109,7 +109,6 @@ public class Sketch extends PApplet {
           rect(intX, intY, 5, 5);
         }
 
-
       }
     }
   }
