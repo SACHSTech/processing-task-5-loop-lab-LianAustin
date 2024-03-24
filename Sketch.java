@@ -124,6 +124,7 @@ public class Sketch extends PApplet {
       for (int intColumn = 0; intColumn < 30; intColumn++) {
         intX = 3 + 600 + intRow * 10;
         intY = 3 + 300 + intColumn * 10;
+
         if (intColumn % 2 == 1) {
           fill(255);
         } else {
@@ -132,7 +133,6 @@ public class Sketch extends PApplet {
         noStroke();
         rect(intX, intY, 5, 5);
       }
-
     }
   }
 
