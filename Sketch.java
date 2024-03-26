@@ -42,8 +42,6 @@ public class Sketch extends PApplet {
     draw_section6();
     draw_section7();
     draw_section8();
-
-
   }
 
 
@@ -82,7 +80,6 @@ public class Sketch extends PApplet {
         fill(255);
         noStroke();
         rect(intX, intY, 5, 5);
-
       }
     }
   }
