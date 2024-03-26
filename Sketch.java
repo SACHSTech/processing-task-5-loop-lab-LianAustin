@@ -204,6 +204,16 @@ public class Sketch extends PApplet {
   }
 
   public void draw_section8(){
-
+    int intX = 0;
+    int intY = 0;
+    for (int intRow = 0; intRow < 30; intRow++) {
+      for (int intColumn = intRow; intColumn >= 0; intColumn--) {
+        intX = 900 + 3 + intRow * 10;
+        intY = 3 + intColumn * 10;
+        fill(255);
+        noStroke();
+        rect(intX, intY, 5, 5);
+      }
+    }
   }
 }
